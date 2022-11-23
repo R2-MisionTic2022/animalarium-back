@@ -16,7 +16,7 @@ const cors = require('cors');
 var app = express();
 
 const corsOptions = {
-	origin: 'http://localhost:3001',
+	origin: 'https://animalarium-front.vercel.app/',
 	optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
