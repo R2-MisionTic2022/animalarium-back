@@ -16,7 +16,7 @@ const cors = require('cors');
 var app = express();
 
 const corsOptions = {
-  origin: 'https://animalarium-back-production.up.railway.app/',
+  origin: 'https://animalarium-back-production.up.railway.app/articulos',
 	//origin: 'https://animalarium-front.vercel.app/',
 	optionsSuccessStatus: 200
 };
